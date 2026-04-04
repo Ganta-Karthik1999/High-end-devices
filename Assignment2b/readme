@@ -1,0 +1,14 @@
+Install the ARM cross-compiler and QEMU:
+bashsudo apt install gcc-arm-linux-gnueabihf qemu-user
+Then compile and run:
+bash# Cross-compile for ARM
+arm-linux-gnueabihf-gcc assessment.s -o assessment -nostdlib -static
+
+# Run with QEMU
+qemu-arm ./assessment
+
+
+Option 3: Use an online ARM emulator
+
+CPUlator — ARM simulator in browser
+VisUAL — ARM emulator for learning

@@ -1,0 +1,13 @@
+In a memory map if the base address is B and the ptr is 32 raw pointer what would the ptr.add(0x1) and ptr.add(0x2) would do and the same with the ptr if it was  a 8 bit raw value
+
+
+Ans: 
+
+In the first case ptr 32 bit raw value
+Ptr.add(0x1) would be B + 4 (bytes)
+Ptr.add(0x2) would be B + 8 (bytes)
+ 
+In the second case ptr 8 bit raw ptr
+
+Ptr.add(0x1) would be B +1(bytes)
+Ptr.add(0x2) would be  B+2 (bytes)
