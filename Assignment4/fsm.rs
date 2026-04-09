@@ -78,8 +78,5 @@ fn main(){
         state = new_state;
     }
 
-    
- 
-
 
 }
