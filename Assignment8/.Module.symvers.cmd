@@ -1,1 +1,0 @@
-savedcmd_/home/pi/classes/High-end-devices/Assignment8/Module.symvers :=  scripts/mod/modpost -M -m -a      -o /home/pi/classes/High-end-devices/Assignment8/Module.symvers -T /home/pi/classes/High-end-devices/Assignment8/modules.order -i Module.symvers -e 
